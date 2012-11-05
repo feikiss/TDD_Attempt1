@@ -7,6 +7,7 @@ public class StringOperator {
             char tempChar = param.charAt(index);
             int intValue = (int)tempChar;
             if(intValue>=65&&intValue<=90){
+                
                 tempChar = (char)(intValue+32);
             } else if(intValue>=97&&intValue<=122){
                 tempChar = (char)(intValue-32);
