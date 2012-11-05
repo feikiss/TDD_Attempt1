@@ -1,6 +1,7 @@
 package com.tdd.first;
 
 //try push
+//try push 2
 public class StringOperator {
     public String switchCharacter(String param) throws Exception {
         String result = "";
