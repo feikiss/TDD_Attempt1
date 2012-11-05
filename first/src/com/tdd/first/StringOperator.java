@@ -1,5 +1,6 @@
 package com.tdd.first;
 
+
 public class StringOperator {
     public String switchCharacter(String param) throws Exception {
         String result = "";
