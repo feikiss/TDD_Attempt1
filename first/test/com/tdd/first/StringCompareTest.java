@@ -9,7 +9,6 @@ import static org.junit.Assert.assertTrue;
  * Created with IntelliJ IDEA.
  * User: Fly
  * Date: 12-10-31
- * Time: ����8:54
  * To change this template use File | Settings | File Templates.
  */
 public class StringCompareTest {

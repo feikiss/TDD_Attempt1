@@ -5,13 +5,6 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Fly
- * Date: 12-10-31
- * Time: 10:02
- * To change this template use File | Settings | File Templates.
- */
 public class StringOperatorTest {
     @Test
     public void string_switch_a_to_A() throws Exception {
@@ -43,6 +36,7 @@ public class StringOperatorTest {
         String actualResult = operator.switchCharacter(inputValue);
         assertTrue(expectResult.equals(actualResult));
     }
+
     @Test
     public void string_switch_123_to_exception(){
         StringOperator operator = new StringOperator();
